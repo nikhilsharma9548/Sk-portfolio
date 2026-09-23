@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <>
     <Header/>
-    <section id="Projects" className='pt-24 md:pt-16 p-10 text-white h-full overflow-hidden flex-col justify-center sm:pt-0'>
+    <section id="Projects" className='pt-10 md:pt-16 p-10 text-white h-full overflow-hidden flex-col justify-center sm:pt-0'>
         <h1 className='flex items-center justify-center underline text-3xl font-semibold'>Projects</h1>
         <p className="md:text-lg text-base mt-2 text-center pt-5">  Some cool stuff I’ve built recently 👇</p>
 
