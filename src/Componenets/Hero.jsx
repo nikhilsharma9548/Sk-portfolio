@@ -38,7 +38,7 @@ const Hero = () => {
       </h2>
     </div>
     <p className=" text-white font-serif md:text-2xl mt-5 px-5 lg:w-xl text-justify ">
-      Hi, I’m Sohil Khan, the creator of Coding Tiger — a platform where I share practical coding tutorials, real-world projects, and developer tips to help you master web development.
+      Hi, I’m Sohil Khan, the creator of Sk Developer — a platform where I share practical coding tutorials, real-world projects, and developer tips to help you master web development.
     </p>
     <div className='flex text-white  gap-5 mt-10 px-5 items-center'>
       <a 
