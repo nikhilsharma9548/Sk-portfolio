@@ -24,12 +24,11 @@ const Header = () => {
        </div>
       </div>
       {menu && (
-        <div className='md:hidden w-screen z-20 h-screen inset-10 bg-black text-white flex flex-col items-center gap-10 text-2xl font-sans font-bold'>
-          <li>Home</li>
-          <li>Services</li>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
+        <div className='md:hidden w-screen z-20 h-screen mt-20 inset-10 bg-black text-white flex flex-col items-center gap-10 text-xl font-sans font-bold'>
+           <li className='hover:text-green-500 transition-colors duration-300'><Link to="/">Home</Link></li>
+          <li className='hover:text-green-500 transition-colors duration-300'><Link to="/about">About</Link></li>
+          <li className='hover:text-green-500 transition-colors duration-300'><Link to="/projects">Projects</Link></li>
+          <li className='hover:text-green-500 transition-colors duration-300'><Link to="/contact">Contact</Link></li>
         </div>
       )}
     </div>
