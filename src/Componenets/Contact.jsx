@@ -10,15 +10,15 @@ const Contact = () => {
     const iconList = [
         {
           Image: img1,
-          link: "https://github.com/nikhilsharma9548"
+          link: "https://github.com/sohil865"
         },
         {
           Image: img2,
-          link: "https://www.linkedin.com/in/nikhil-sharma-43a013341/"
+          link: "https://www.linkedin.com/in/sohil-khan-ab25a8264"
         },
         {
           Image: img3,
-          link: "https://www.instagram.com/sharmaharrdy/?hl=en"
+          link: "https://www.instagram.com/invites/contact/?utm_content=l8n685f&stkn=1qtwbzn6mfu0e"
         }
       ];
       

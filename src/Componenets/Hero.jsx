@@ -5,13 +5,14 @@ import { CgYoutube } from "react-icons/cg";
 import { VscGithub } from "react-icons/vsc";
 import { SiInstagram } from "react-icons/si";
 import Header from './Header';
+import Resume from '/Resume.pdf'
 
 
 const Hero = () => {
   return (
     <>
      <Header/>
-    <div className='w-screen h-screen max-md:flex-col-reverse flex justify-evenly items-center text-center px-5'>
+    <div className='w-screen h-screen max-md:flex-col-reverse flex justify-evenly items-center text-center px-3'>
       <div>
         <h1 className='md:text-6xl text-4xl font-bold bg-linear-to-r from-green-500 to-white bg-clip-text text-transparent '>SK Developer</h1>
     <div className='text-white mt-5 flex justify-center  items-center gap-2'>
@@ -40,12 +41,16 @@ const Hero = () => {
       Hi, I’m Sohil Khan, the creator of Coding Tiger — a platform where I share practical coding tutorials, real-world projects, and developer tips to help you master web development.
     </p>
     <div className='flex text-white  gap-5 mt-10 px-5 items-center'>
-      <button className='bg-green-600 px-4 py-2 sm:text-base text-sm rounded-full text-white'>Download</button>
+      <a 
+      href={Resume}
+            target="_blank"
+            rel="noopener noreferrer"
+            className='bg-green-600 px-5 py-3 sm:text-base text-sm rounded-full text-white'>Download</a>
           <ul className='flex gap-5'>
-            <li className='md:text-3xl text-2xl hover:text-green-400 cursor-pointer duration-300'><CiLinkedin/></li>
-            <li className='md:text-3xl text-2xl hover:text-green-400 cursor-pointer duration-300'><CgYoutube/></li>
-            <li className='md:text-3xl text-2xl hover:text-green-400 cursor-pointer duration-300'><VscGithub/></li>
-            <li className='md:text-3xl text-2xl hover:text-green-400 cursor-pointer duration-300'><SiInstagram/></li>
+            <li className='md:text-3xl text-3xl hover:text-green-400 cursor-pointer duration-300'><CiLinkedin/></li>
+            <li className='md:text-3xl text-3xl hover:text-green-400 cursor-pointer duration-300'><CgYoutube/></li>
+            <li className='md:text-3xl text-3xl hover:text-green-400 cursor-pointer duration-300'><VscGithub/></li>
+            <li className='md:text-3xl text-3xl hover:text-green-400 cursor-pointer duration-300'><SiInstagram/></li>
           </ul>
     </div>
       </div>
